@@ -46,7 +46,7 @@ public class ArcBarView extends android.support.v7.widget.AppCompatImageView {
     private float[] tan;                // 当前点的tangent值,用于计算图片所需旋转的角度
 
 
-    private int mCircleD = 160;
+    private int mCircleD = 120;
 
 
     private Context mContext;
@@ -150,8 +150,8 @@ public class ArcBarView extends android.support.v7.widget.AppCompatImageView {
         selectedText.setColor(Color.parseColor("#ffffff"));
         controllerPaint.setColor(endColor);
 
-        textPaint.setTextSize(70);
-        selectedText.setTextSize(70);
+        textPaint.setTextSize(50);
+        selectedText.setTextSize(50);
 
         textPaint.setTextAlign(Paint.Align.CENTER);
         selectedText.setTextAlign(Paint.Align.CENTER);
