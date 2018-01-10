@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_air);
         round_view = findViewById(R.id.round_view);
+
 //        List<String> list = new ArrayList<>();
 //        list.add("17");
 //        list.add("18");
